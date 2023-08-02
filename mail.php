@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $interests = isset($_POST["interest"]) ? implode(", ", $_POST["interest"]) : "No interests selected";
 
     // Set the recipient email address
-    $to = "recipient@example.com"; // Replace with the actual email address where you want to receive the form data.
+    $to = "salmantechy406@gmail.com"; // Replace with the actual email address where you want to receive the form data.
 
     // Set the subject of the email
     $subject = "Contact Form Submission from $name";
